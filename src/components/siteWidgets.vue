@@ -28,7 +28,3 @@ export default {
     name: "siteWidgets"
 }
 </script>
-
-<style>
-    @import "../assets/scss/common.scss"
-</style>

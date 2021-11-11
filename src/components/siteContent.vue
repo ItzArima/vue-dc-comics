@@ -9,7 +9,3 @@ export default {
     name: "siteContent",
 };
 </script>
-
-<style>
-    @import "../assets/scss/common.scss"
-</style>

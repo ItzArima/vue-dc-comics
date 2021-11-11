@@ -5,16 +5,36 @@
     </div>
     <div class="nav-container">
       <nav>
-        <a href="#">CHARACTER</a>
-        <a href="#" class="active">COMICS</a>
-        <a href="#">MOVIES</a>
-        <a href="#">TV</a>
-        <a href="#">GAMES</a>
-        <a href="#">COLLECTIBLES</a>
-        <a href="#">VIDEO</a>
-        <a href="#">FANS</a>
-        <a href="#">NEWS</a>
-        <a href="#">SHOP</a>
+        <div class="nav-item">
+          <a href="#">CHARACTER</a>
+        </div>
+        <div class="nav-item active">  
+          <a href="#">COMICS</a>
+        </div>
+        <div class="nav-item">  
+          <a href="#">MOVIES</a>
+        </div>
+        <div class="nav-item">
+          <a href="#">TV</a>
+        </div>
+        <div class="nav-item">  
+          <a href="#">GAMES</a>
+        </div>
+        <div class="nav-item">  
+          <a href="#">COLLECTIBLES</a>
+        </div>
+        <div class="nav-item">  
+          <a href="#">VIDEO</a>
+        </div>
+        <div class="nav-item">  
+          <a href="#">FANS</a>
+        </div>
+        <div class="nav-item">  
+          <a href="#">NEWS</a>
+        </div>
+        <div class="nav-item">  
+          <a href="#">SHOP</a>
+        </div>
       </nav>
     </div>
   </div>
@@ -25,8 +45,4 @@ export default {
   name: "siteHeader",
 };
 </script>
-
-<style lang="scss">
-  @import "../assets/scss/common.scss"
-</style>
 
