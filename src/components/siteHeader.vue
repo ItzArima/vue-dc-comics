@@ -8,7 +8,7 @@
         <div class="nav-item">
           <a href="#">CHARACTER</a>
         </div>
-        <div class="nav-item active">  
+        <div class="nav-item">  
           <a href="#">COMICS</a>
         </div>
         <div class="nav-item">  

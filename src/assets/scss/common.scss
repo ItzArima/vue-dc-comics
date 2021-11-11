@@ -28,13 +28,16 @@ $site_blue_color : #0282f9;
             display: flex;
             height: 100%;
 
-            .active{
-                border-bottom: 5px solid $site_blue_color;
+            .nav-item{
                 height: 100%;
 
-                a{
-                    color: $site_blue_color;
-                }
+                &:hover{
+                    border-bottom: 5px solid $site_blue_color;
+
+                    a{
+                        color: $site_blue_color;
+                    }
+                }             
             }
         }
         

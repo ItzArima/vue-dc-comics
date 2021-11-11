@@ -1,5 +1,6 @@
 <template>
     <div class="footer-container">
+        <siteWidgets />
         <div class="footer-main">
             <div class="footer-content">
                 <aside>
@@ -64,8 +65,13 @@
 </template>
 
 <script>
+import siteWidgets from "./siteWidgets.vue";
+
 export default {
     name: "siteFooter",
+    components:{
+        siteWidgets,
+    }
 };
 </script>
 
