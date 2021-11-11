@@ -1,5 +1,10 @@
 $site_blue_color : #0282f9;
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 #app{
     .header-container{
@@ -31,6 +36,41 @@ $site_blue_color : #0282f9;
                 color: $site_blue_color;
                 border-bottom: 5px solid $site_blue_color;
             }
+        }
+    }
+    .content-container{
+        background-color: #1c1c1c;
+        padding: 2rem 0;
+        color: white;
+
+        h2{
+            padding: 0 10rem;
+        }
+    }
+    .widgets-container{
+        height: 100px;
+        background-color: $site_blue_color;
+        display: flex;
+        padding: 0 10rem;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+
+        .widget{
+            display: flex;
+            align-items: center;
+
+            p{
+                font-size: x-small;
+                font-weight: 900;
+                margin-left: 0.5rem;
+            }
+        }
+
+        img{
+            width: 50px;
+            height: 50px;
+            object-fit: contain;
         }
     }
 }    

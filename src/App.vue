@@ -1,8 +1,8 @@
-// eslint-disable-next-line
 <template>
   <div id="app">
     <siteHeader />
     <siteContent />
+    <siteWidgets />
     <siteFooter />
   </div>
 </template>
@@ -11,23 +11,21 @@
 import siteHeader from "./components/siteHeader.vue";
 import siteContent from "./components/siteContent.vue";
 import siteFooter from "./components/siteFooter.vue";
+import siteWidgets from "./components/siteWidgets.vue";
 
 export default {
   name: "App",
   components: {
     siteHeader,
     siteContent,
-    siteFooter
+    siteFooter,
+    siteWidgets
   },
 };
 </script>
 
 <style lang="scss">
-#app {
-  p {
-    color: red;
-  }
-}
+  @import "./assets/scss/common.scss"
 </style>
 
 

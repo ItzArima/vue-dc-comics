@@ -1,5 +1,7 @@
 <template>
-    <h1>this is the content</h1>
+    <div class="content-container">
+        <h2> content here </h2>
+    </div>
 </template>
 
 <script>
@@ -9,5 +11,5 @@ export default {
 </script>
 
 <style>
-
+    @import "../assets/scss/common.scss"
 </style>
