@@ -1,0 +1,36 @@
+$site_blue_color : #0282f9;
+
+
+#app{
+    .header-container{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10rem;
+
+        .logo{
+            margin-left: 2rem;
+
+            img{
+                height: 75px;
+                width: 75px;
+            }
+        }
+    }
+    .nav-container{
+        padding-top: 1rem;
+        
+        a{
+            padding: 1rem;
+            text-decoration: none;
+            color: #464652;
+            font-size: x-small;
+            font-weight: 900;
+            padding-bottom: 2rem;
+
+            &.active{
+                color: $site_blue_color;
+                border-bottom: 5px solid $site_blue_color;
+            }
+        }
+    }
+}    
