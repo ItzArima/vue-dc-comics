@@ -51,12 +51,44 @@ $site_blue_color : #0282f9;
     }
     .content-container{
         background-color: #1c1c1c;
-        padding: 2rem 0;
         color: white;
 
-        h2{
-            padding: 0 10rem;
+        .jumbo{
+            height: 500px;
+            background-image: url(./assets/img/jumbotron.jpg);
+            position: relative;
+
+            .current{
+                background-color: $site_blue_color;
+                height: 40px;
+                width: 150px;
+                text-align: center;
+                line-height: 40px;
+                position: absolute;
+                bottom:-20px;
+                left: 10rem;
+            }
         }
+
+        .products-container{
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0 10rem;
+            padding-top: 2rem;
+
+            .product-container{
+                width: calc(100% / 6);
+                margin-bottom: 2rem;
+
+                img{
+                    height: 200px;
+                    width: 200px;
+                    object-fit: cover;
+                    padding: 0.25rem;
+                    object-position: top;
+                }
+            }
+        }    
     }
     .widgets-container{
         height: 100px;
